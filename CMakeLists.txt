@@ -3,4 +3,4 @@ project(ifelse)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(ifelse main.cpp)
+add_executable(ifelse enum.cpp)
