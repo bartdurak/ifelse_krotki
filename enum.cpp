@@ -1,17 +1,17 @@
 #include <iostream>
-// Typ wyliczeniowy Enum
 using namespace std;
-int main()
-    {
-        enum Days {Sunday, Monday, Tuesday, Wednesday,Thursday,Friday,Saturday };
-Days today;
-today = Monday;
+int main(){
+//krótki if else
+    int a;
+    cout<<"Podaj wartosc liczbowa A = ";
+    cin>>a;
+    if (a < 0)
+        cout<<"Podales liczbe ujemna";
+    else
+    if (a==0)
+        cout<<"Podales cyfre zero ";
+    else
+        cout<<"Podales liczbe dodatnia";
 
-        if (today == Saturday || today == Sunday)
-
-            cout << " \nUwielbiam weekday!\n";
-             else {
-            cout << " \nWracam do roboty . \n";
-        }
 return 0;
 }
